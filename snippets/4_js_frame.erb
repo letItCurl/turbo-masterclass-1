@@ -1,0 +1,28 @@
+<script>
+  // Select all links on the page
+  const links = document.querySelectorAll("turbo-frame a");
+
+  // Add a "click" event listener on each link to intercept the click
+  // and override the default behavior
+  links.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      // Override default behavior
+      event.preventDefault()
+      // Convert the click on the link into an AJAX request
+
+      // Compare the html response with the document present in the web browser
+      //    i.e: document.body
+
+      // Find <turbo-frame id="messages"> in the the html response
+
+      // If html matching found,
+      // then replace the <turbo-frame id="messages"> element from the response
+      // in the document present in the web browser
+
+      // If html matching not found
+      // then replace the element <turbo-frame id="messages"> in the browser document with
+      // "content missing"
+    }
+    )
+  });
+</script>

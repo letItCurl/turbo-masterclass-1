@@ -1,0 +1,18 @@
+<script>
+  // Select all forms on the page
+  const forms = document.querySelectorAll("form");
+
+  // Add a "submit" event listener on each form to intercept the submission
+  // and override the default behavior
+  // same thang but: diff events, add html waiting if required
+  forms.forEach((form) => {
+    form.addEventListener("submit", (event) => {
+      // Override default behavior
+      event.preventDefault()
+      // Convert the form submission into an AJAX request
+      // Replace the current page's <body> with the <body> of the response
+      // and leave the <head> unchanged
+    }
+    )
+  });
+</script>
