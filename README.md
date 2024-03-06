@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://turbo.hotwired.dev/handbook/streams
+https://turbo.hotwired.dev/reference/attributes
+https://github.com/hotwired/turbo
+https://github.com/hotwired/turbo-rails
+https://github.com/hotwired/turbo-rails/blob/main/app/models/concerns/turbo/broadcastable.rb#L448
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://app.diagrams.net/#G1L8qzDEOsWRfn21XfR1pSw6qkyWbZMOP6#%7B%22pageId%22%3A%224RhYaK59koXLgcbkapNT%22%7D
